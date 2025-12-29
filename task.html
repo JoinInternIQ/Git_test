@@ -1,0 +1,14 @@
+<input id="box" onkeyup="print()">
+<button>Submit</button>
+<h1 id="result">
+
+</h1>
+
+<script>
+    var input=document.getElementById("box")
+    var result=document.getElementById("result")
+
+    function print(){
+        result.textContent=input.value
+    }
+</script>

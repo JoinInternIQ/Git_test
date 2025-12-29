@@ -1,0 +1,15 @@
+<h1 id="result">Name</h1>
+<button onclick="print(event)">John</button> 
+<button onclick="print(event)">Peter</button> 
+<button onclick="print(event)">Mohammad</button> 
+<script>
+
+    var output=document.getElementById("result")
+    function print(event)
+    {
+        output.textContent=event.target.textContent;
+    }
+</script>
+
+
+

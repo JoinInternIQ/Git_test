@@ -1,0 +1,16 @@
+<button onclick="updatee()">Add Hello</button>
+<div id="result">
+
+</div>
+
+<script>
+    var divv=document.getElementById("result"); //<div></div>
+    function updatee()
+    {
+        var listitem=document.createElement("h1") //<h1></h1>
+        listitem.textContent="Welcome All" //<h1>Welcome All</h1> 
+        divv.append(listitem) //<div> <h1>Welcome</h1>
+        //  </div>
+    }
+</script> 
+
